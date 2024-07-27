@@ -33,34 +33,34 @@
     - Difficulté rencontrées
     - Ce qui est prévu pour le prochain sprint
     - Se pŕeparer + avoir un support
-    - Déploiement (dans une image Docker --> attention à la persistance des données ou https://nua.ge/
+    - Déploiement (dans une image Docker --> attention à la persistance des données ou https://nua.ge/)
 
 
 **SPRINT 1**
   - **Cahier des charges** : besoins (pourquoi/public), objectifs, fonctionnalités
-    -[] Presentation projet (FR et EN)
-    -[] Besoins/objectifs
-    -[] Fonctionnalités (MVP- Minimum Viable Product)
-    -[] Liste des technologies
-    -[] Public visé
-    -[] Navigateur compatible
+    -[/] Presentation projet (FR et EN)
+    -[?] Besoins/objectifs
+    -[/] Fonctionnalités (MVP- Minimum Viable Product)
+    -[X] Liste des technologies
+    -[X] Public visé
+    -[X] Navigateur compatible
     -[] Arborescence de l'appli
     -[] Liste des routes prévues
     -[] Liste User stories
-    -[] Rôles (product owner porteur du projet, Scrum master, lead dev, Git Master, référent technique par technologie)
-    -[] Choisir outils gestion de projet
+    -[X] Rôles (product owner porteur du projet, Scrum master, lead dev, Git Master, référent technique par technologie)
+    -[X] Choisir outils gestion de projet
 
   - **Gestion de projetn** :
-    -[] Github project/kanban
+    ~~-[] Github project/kanban~~
     -[] Backlog pour chaque sprint
-    -[] Faire README orga groupe
-    -[] Convention pour les comm(gitmoji par exemple https://gitmoji.dev/ pour chaque commit) https://www.conventionalcommits.org/en/v1.0.0/
+    ~~-[] Faire README orga groupe~~
+    ~~-[] Convention pour les comm(gitmoji par exemple https://gitmoji.dev/ pour chaque commit) https://www.conventionalcommits.org/en/v1.0.0/~~
     -[] Fichier de configuration dans le projet (avec prettier par exemple)
-    -[] Carnet de bord
+    -[X] Carnet de bord
 
   - **Documents de veille**
-    -[] Créer markdown (contexte, URL, bugs, solutions)
-    -[] Dossier avec pdf
+    -[X] Créer markdown (contexte, URL, bugs, solutions)
+    -[X] Dossier avec pdf
 
 
 **SPRINT 2**
@@ -91,8 +91,10 @@
 **SPRINT 6**
 **SPRINT 7**
 **SPRINT 8**
-**SPRINT 9**
+  -[] Faire une démo auprès de 24ème
 
+**SPRINT 9**
+-[] Appliquer les modifs selon feedback 24ème
 
 **SPRINT 10**
   -[] Assurer le projet/on ne code plus
