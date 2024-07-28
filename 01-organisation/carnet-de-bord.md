@@ -18,3 +18,12 @@
 + Définition des fonctionnalités et du Minimum Viable Product. Étant toute seule sur ce projet il ne faut pas que je sois dépassées par la complexité des fonctionnalité à construire. Il faut que je m'en sente capable et que j'ai assez de temps
 + Démarrage de l'utilisation de NextCloud Deck avec les premières tâches à faire
 + Décision de faire le cahier des charges en markdown pour la simplicité et légèreté = maîtres mots derrière la philosophie de l'application Motherboard
+
+
+# 20240728
++ Reflexion et définition des user stories
+  + Envie d'ajouter plein de fonctionnalités mais necessaire de se limiter afin d'être réaliste vu le temps disponibles pour faire l'application. Déjà 19 fonctionnalités à faire dont 2 en TBC (car potentiellement pas assez de temps pour tout faire)
++ Je me suis renseignée sur le type d'application qu'est Motherboard. Dans la définition la plus simple, il s'agit d'une application CRUD.
++ Ajout de nouvelles fonctionnalités potentielle
++ Ajout de références sur CRUD dans le fichier de veille
++ Matinée plutôt fluide, je suis dans les temps
