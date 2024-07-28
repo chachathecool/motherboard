@@ -45,7 +45,6 @@
     -[X] Public visé
     -[X] Navigateur compatible
     -[] Arborescence de l'appli
-    -[] Liste des routes prévues
     -[X] Liste User stories
     -[X] Rôles (product owner porteur du projet, Scrum master, lead dev, Git Master, référent technique par technologie)
     -[X] Choisir outils gestion de projet
@@ -55,7 +54,6 @@
     -[/] Backlog pour chaque sprint
     ~~-[] Faire README orga groupe~~
     ~~-[] Convention pour les comm(gitmoji par exemple https://gitmoji.dev/ pour chaque commit) https://www.conventionalcommits.org/en/v1.0.0/~~
-    -[] Fichier de configuration dans le projet (avec prettier par exemple)
     -[X] Carnet de bord
 
   - **Documents de veille**
@@ -87,14 +85,29 @@
 
 
 **SPRINT 4**
+    -[] Coder fonctionnalités
+    -[] Liste des routes prévues
+
+
 **SPRINT 5**
+    -[] Coder fonctionnalités
+
 **SPRINT 6**
+    -[] Coder fonctionnalités
+
 **SPRINT 7**
+    -[] Coder fonctionnalités
+
+
 **SPRINT 8**
-  -[] Faire une démo auprès de 24ème
+    -[] Coder fonctionnalités
+
 
 **SPRINT 9**
--[] Appliquer les modifs selon feedback 24ème
+  -[] Fichier de configuration dans le projet (avec prettier par exemple)
+  -[] Déploiement
+  -[] Faire une démo auprès de 24ème
+  -[] Appliquer les modifs selon feedback 24ème
 
 **SPRINT 10**
   -[] Assurer le projet/on ne code plus

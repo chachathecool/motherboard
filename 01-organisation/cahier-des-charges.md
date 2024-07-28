@@ -88,7 +88,8 @@ Référent technique --> équipe du 24ème
 **Backend**
 - PHP
 - Symfony pour le framework
-- NoSQL pour la base de données
+- Templating avec Twig 3
+- NoSQL avec une base de données orientée document
 - MongoDB pour la gestion de la base de données
 - Peertube API (open source) : https://framacolibri.org/t/is-it-possible-to-get-random-videos-via-api/17987
 
@@ -96,6 +97,7 @@ Référent technique --> équipe du 24ème
 - https://phpdelusions.net/pdo pour éviter les CSRF injection
 
 
+#### Pourquoi PHP
 *Source : https://minifi.ca/MR2V_*
 + PHP est toujours un langage populaire (près de 50% de part de marché en 2023)
 + Il est adapotable à tout type de projet, des plus simples aux plus complexes.
@@ -105,10 +107,31 @@ Référent technique --> équipe du 24ème
 + Une pléthore de fonctions pour accompagner à la sécurisation de l'application contre le cross-site scripting (XSS), les injections SQL , le cross-site request forgery (CSRF) et l'execution de code à distance (remote code execution - RCE). De plus, il est possible de faire de l'encryptage, du hashing, du hashing de mots de passe, d'ajouter des certificats SSL/TLS certificates et l'authentification HTTP.
 + Fun et intuitif à utiliser
 
+#### Pourquoi Symfony
+*Sources :*
+- *https://minifi.ca/w7ZZg*
+- *https://minifi.ca/L-08C*
++ Superbe documentation
++ Syntaxe fluide, simple et concise de Twig
++ Plus souple si on s'éloigne du paradigme MVC
+
+
+#### Pourquoi NoSql
+*Source :*
+- *https://minifi.ca/EXLXp*
++ Plus naturel et flexible
++ Possibilité de recherche textuelle
++ Archivage en ligne aisés
+
 **Frontend**
-- Html
+- Html/CSS
 - Bootstrap 5
-- Framework Twig 3
+
+
+#### Pourquoi Bootstrap
++ Disponibilité de plusieurs composants UI
++ Adaptabilité responsive simple
++ Fait gagner du temps
 
 **Outils**
 - GIT et github 

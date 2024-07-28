@@ -24,6 +24,7 @@
 + Reflexion et définition des user stories
   + Envie d'ajouter plein de fonctionnalités mais necessaire de se limiter afin d'être réaliste vu le temps disponibles pour faire l'application. Déjà 19 fonctionnalités à faire dont 2 en TBC (car potentiellement pas assez de temps pour tout faire)
 + Je me suis renseignée sur le type d'application qu'est Motherboard. Dans la définition la plus simple, il s'agit d'une application CRUD.
-+ Ajout de nouvelles fonctionnalités potentielle
++ Ajout de nouvelles fonctionnalités potentielles
 + Ajout de références sur CRUD dans le fichier de veille
 + Matinée plutôt fluide, je suis dans les temps
++ Explication du choix de la stack technique
