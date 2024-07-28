@@ -46,13 +46,13 @@
     -[X] Navigateur compatible
     -[] Arborescence de l'appli
     -[] Liste des routes prévues
-    -[] Liste User stories
+    -[X] Liste User stories
     -[X] Rôles (product owner porteur du projet, Scrum master, lead dev, Git Master, référent technique par technologie)
     -[X] Choisir outils gestion de projet
 
   - **Gestion de projetn** :
     ~~-[] Github project/kanban~~
-    -[] Backlog pour chaque sprint
+    -[/] Backlog pour chaque sprint
     ~~-[] Faire README orga groupe~~
     ~~-[] Convention pour les comm(gitmoji par exemple https://gitmoji.dev/ pour chaque commit) https://www.conventionalcommits.org/en/v1.0.0/~~
     -[] Fichier de configuration dans le projet (avec prettier par exemple)

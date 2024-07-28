@@ -96,6 +96,15 @@ Référent technique --> équipe du 24ème
 - https://phpdelusions.net/pdo pour éviter les CSRF injection
 
 
+*Source : https://minifi.ca/MR2V_*
++ PHP est toujours un langage populaire (près de 50% de part de marché en 2023)
++ Il est adapotable à tout type de projet, des plus simples aux plus complexes.
++ Flexible car n'impose pas de style et large ecosysteme de framework
++ Utilisable avec différents type de bases de données
++ Fonctionne sur un large spectre de serveurs (Apache, Nginx, etc.) et de plateformes (Linux, Mac, Windows, Unix)
++ Une pléthore de fonctions pour accompagner à la sécurisation de l'application contre le cross-site scripting (XSS), les injections SQL , le cross-site request forgery (CSRF) et l'execution de code à distance (remote code execution - RCE). De plus, il est possible de faire de l'encryptage, du hashing, du hashing de mots de passe, d'ajouter des certificats SSL/TLS certificates et l'authentification HTTP.
++ Fun et intuitif à utiliser
+
 **Frontend**
 - Html
 - Bootstrap 5
