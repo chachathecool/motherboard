@@ -1,0 +1,1 @@
+Interface minimaliste : alléger la charge mentale rien qu'en voyant l'interface
