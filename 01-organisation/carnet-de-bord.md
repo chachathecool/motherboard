@@ -28,3 +28,9 @@
 + Ajout de références sur CRUD dans le fichier de veille
 + Matinée plutôt fluide, je suis dans les temps
 + Explication du choix de la stack technique
+
+
+
+# 20240729
++ Faire l'arborescence du site
++ Modification des pages des fonctionnalités

@@ -82,9 +82,8 @@
 
   - **MAJ cahier des charges**
 
-
-
 **SPRINT 4**
+    -[] Lister fonctionnalités à coder dans kanban
     -[] Coder fonctionnalités
     -[] Liste des routes prévues
 

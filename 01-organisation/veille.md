@@ -12,8 +12,8 @@
 |Symfony vs Laravel           |https://minifi.ca/L-08C      |                                            |                                    |
 |                             |https://minifi.ca/w7ZZg      |                                            |                                    |
 |                             |                             |                                            |                                    |
-|                             |                             |                                            |                                    |
-|                             |                             |                                            |                                    |
+|Arborescence site web        |https://minifi.ca/DyUGj      |                                            |                                    |
+|Carte mère                   |https://minifi.ca/01qqf      |                                            |                                    |
 |                             |                             |                                            |                                    |
 |                             |                             |                                            |                                    |
 |                             |                             |                                            |                                    |
