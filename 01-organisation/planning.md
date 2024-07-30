@@ -44,7 +44,7 @@
     -[X] Liste des technologies
     -[X] Public visé
     -[X] Navigateur compatible
-    -[] Arborescence de l'appli
+    -[X] Arborescence de l'appli
     -[X] Liste User stories
     -[X] Rôles (product owner porteur du projet, Scrum master, lead dev, Git Master, référent technique par technologie)
     -[X] Choisir outils gestion de projet

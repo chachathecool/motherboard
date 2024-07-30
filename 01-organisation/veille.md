@@ -15,11 +15,11 @@
 |Arborescence site web        |https://minifi.ca/DyUGj      |                                            |                                    |
 |Carte mère                   |https://minifi.ca/01qqf      |                                            |                                    |
 |                             |                             |                                            |                                    |
-|                             |                             |                                            |                                    |
-|                             |                             |                                            |                                    |
-|                             |                             |                                            |                                    |
-|                             |                             |                                            |                                    |
-|                             |                             |                                            |                                    |
+|Diagramme architecture       |https://minifi.ca/W5AL-      |                                            |                                    |
+|                             |https://minifi.ca/gp67b      |                                            |                                    |
+|                             |https://minifi.ca/kPnTP      |                                            |                                    |
+|                             |https://minifi.ca/yb5KR      |                                            |                                    |
+|                             |https://minifi.ca/DTWCP      |                                            |                                    |
 |                             |                             |                                            |                                    |
 |                             |                             |                                            |                                    |
 |                             |                             |                                            |                                    |

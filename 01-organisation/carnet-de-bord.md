@@ -7,7 +7,6 @@
   + Définition du nombre de sprint
   + Listing global des tâches à faire (à retravailler)
 
-
 # 20240724
 + Démarrage de la présentation du logiciel
 + A lire la description de motherboard : https://en.wikipedia.org/wiki/Motherboard
@@ -19,7 +18,6 @@
 + Démarrage de l'utilisation de NextCloud Deck avec les premières tâches à faire
 + Décision de faire le cahier des charges en markdown pour la simplicité et légèreté = maîtres mots derrière la philosophie de l'application Motherboard
 
-
 # 20240728
 + Reflexion et définition des user stories
   + Envie d'ajouter plein de fonctionnalités mais necessaire de se limiter afin d'être réaliste vu le temps disponibles pour faire l'application. Déjà 19 fonctionnalités à faire dont 2 en TBC (car potentiellement pas assez de temps pour tout faire)
@@ -29,8 +27,12 @@
 + Matinée plutôt fluide, je suis dans les temps
 + Explication du choix de la stack technique
 
-
-
 # 20240729
 + Faire l'arborescence du site
 + Modification des pages des fonctionnalités
++ Choix de mettre des modals pour les sous pages
+
+# 20240731
++ Finalisation arborescence
++ Démarrage sprint 2
++ Recherche et début lecture sur diagramme d'architecture

@@ -37,7 +37,7 @@ Peu d'information de profil demandé
 
 
 ### **RÔLES**
-Pour cette application, tous les r^oles (développeuse, porteuse de projet, product owner) sont portés par Charlène Hounsou-Guédé. 
+Pour cette application, tous les rôles (développeuse, porteuse de projet, product owner) sont portés par Charlène Hounsou-Guédé.
 Référent technique --> équipe du 24ème
 
 ### **CIBLE**
@@ -64,7 +64,6 @@ Référent technique --> équipe du 24ème
 - Avoir accès à une activité sportive intense différente sans accessoire de 6 minutes (vidéo)
 - Enregistrer mes favoris sans avoir de compte youtube 
 - Télécharger ses données personnelles (RGPD)
-- Thème sombre et clair
 
 #### **Evolutions possible**
 - Gamification --> encouragement quand action faite + plus longues semaines d'actions
@@ -80,7 +79,9 @@ Référent technique --> équipe du 24ème
 - L'astuce minimaliste du jour
 - Axe sobriété (alcohol, cigarette, sucre, réseaux sociaux)
 - Tri des activités favorites par minutage
+- Choisir entre un thème sombre ou clair
 - Avoir accès à une FAQ
+- Les utilisatrices peuvent proposer des sources (licences libres ?) de fitness/méditation
 - Gérer l'admin familial
 
 
@@ -164,31 +165,30 @@ Motherboard est prévue pour être fonctionnelle sur toutes les dernières versi
 
 *En tant qu'utilisatrice connectée*
 
-| Sur la page          |   J'ai besoin de                                |    Afin de/d'                                | Domaine         |
-|:------------:        |:-----------------------------------------------:|:--------------------------------------------:|:---------------:|
-|Accueil               |Contacter l'équipe du site                       |Demander des informations                     |Communication    |
-|Paramètres/profil     |Ajouter mes informations                         |Avoir du contenu personnalisé                 |Personnalisation |
-|Paramètres/profil     |Me déconnecter du site                           |Préserver mes apps privée sur mon téléphone   |Authentification |
-|Paramètres/profil     |Télécharger mes données personnels               |Accéder à mes droits RGPD                     |Gestion          |
-|Paramètres            |Choisir temps dispo par défaut                   |Avoir des activités adaptés à mes dispos      |Personnalisation | TBC
-|Paramètres            |Choisir les types d'activités sportives          |Etre motivée par des acivités qui me plaisent |Personnalisation | TBC
-|Paramètres            |Définir l'heure de notification quotidienne      |Avoir des rappels adaptés à mon planning      |Personnalisation |
-|Paramètres            |Arrêter les notifications                        |Faire des pauses numérique                    |Personnalisation |
-|Paramètres            |Supprimer mon compte                             |Arrêter définitvement mon utilisation         |Suppression      |
-|Paramètres            |Choisir entre un thème sombre ou clair           |Avoir une interface qui me correspond         |Personnalisation |
-|Entracte/duolist      |Remplir mes 2 tâches pro/perso du jour           |M'organiser et libérer de l'espace mental     |Utilisation      |
-|Entracte/duolist      |Valider mes tâches et être encouragée            |Me sentir capable, efficace et satisfaite     |Utilisation      |
-|Entracte/mindbody     |Lancer une vidéo d'entrainement sportif          |Entretenir ma santé physique                  |Utilisation      |
-|Entracte/mindbody     |Lancer un audio de méditation guidée             |Entretenir ma santé mentale                   |Utilisation      |
-|Entracte/wip          |Avoir le nombre d'activités faites               |M'encourager à continuer                      |Utilisation      |
-|Entracte/wip          |Avoir le nombre de minutes faites par activités  |M'encourager à continuer                      |Utilisation      |
-|Entracte/duolist      |Reporter les tâches non faites sur une liste     |Libérer de l'espace mental et m'organiser     |Utilisation      |
-|Entracte/duolist      |Avoir une proposition de tâches à faire          |Alléger la charge mentale                     |Utilisation      |
-|Encore!               |Enregistrer mes vidéos et audio favoris          |Refaire des activités lorsque j'ai dû temps   |Utilisation      |
-
+| Sur la page              |   J'ai besoin de                                |    Afin de/d'                                | Domaine         |
+|:------------:            |:-----------------------------------------------:|:--------------------------------------------:|:---------------:|
+|Global/contact            |Contacter l'équipe du site                       |Demander des informations                     |Communication    |
+|Paramètres/compte         |Ajouter mes informations                         |Avoir du contenu personnalisé                 |Gestion          |
+|Paramètres/compte         |Me déconnecter du site                           |Préserver mes apps privée sur mon téléphone   |Authentification |
+|Paramètres/compte         |Télécharger mes données personnels               |Accéder à mes droits RGPD                     |Gestion          |
+|Paramètres/circuit        |Choisir temps dispo par défaut                   |Avoir des activités adaptés à mes dispos      |Personnalisation | TBC
+|Paramètres/circuit        |Choisir les types d'activités sportives          |Etre motivée par des acivités qui me plaisent |Personnalisation | TBC
+|Paramètres/notifications  |Définir l'heure de notification quotidienne      |Avoir des rappels adaptés à mon planning      |Personnalisation |
+|Paramètres/notifications  |Arrêter les notifications                        |Faire des pauses numérique                    |Personnalisation |
+|Paramètres/compte         |Supprimer mon compte                             |Arrêter définitvement mon utilisation         |Gestion          |
+|Mon Reboot/duolist        |Remplir mes 2 tâches pro/perso du jour           |M'organiser et libérer de l'espace mental     |Utilisation      |
+|Mon Reboot/duolist        |Valider mes tâches et être encouragée            |Me sentir capable, efficace et satisfaite     |Utilisation      |
+|Mon Reboot/mindbody       |Lancer une vidéo d'entrainement sportif          |Entretenir ma santé physique                  |Utilisation      |
+|Mon Reboot/mindbody       |Lancer un audio de méditation guidée             |Entretenir ma santé mentale                   |Utilisation      |
+|RAM                       |Avoir le nombre d'activités faites               |M'encourager à continuer                      |Utilisation      |
+|RAM                       |Avoir le nombre de minutes faites par activités  |M'encourager à continuer                      |Utilisation      |
+|Mon Reboot/duolist        |Reporter les tâches non faites sur une liste     |Libérer de l'espace mental et m'organiser     |Utilisation      |
+|Mon Reboot/duolist        |Avoir une proposition de tâches à faire          |Alléger la charge mentale                     |Utilisation      |
+|Mon Reboot/favoris        |Enregistrer mes vidéos et audio favoris          |Refaire des activités lorsque j'ai dû temps   |Utilisation      |
 
 
 ### **ARBORESCENCE**
+![Arborescence de l'application web Motherboard](./arborescence/motherboard_arborescence_def.drawio.png)
 
 ### **LISTE DES ROUTES**
 
