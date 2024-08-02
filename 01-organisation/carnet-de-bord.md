@@ -36,3 +36,10 @@
 + Finalisation arborescence
 + Démarrage sprint 2
 + Recherche et début lecture sur diagramme d'architecture
+
+# 20240802
++ Choix d'un type d'architecture pour l'application -> MICROSERVICE
+  - Articles lus les plus utiles et intéressants :
+  - https://www.redhat.com/fr/topics/cloud-native-apps/what-is-an-application-architecture
+  - https://www.geeksforgeeks.org/types-of-software-architecture-patterns/
+  - https://www.simform.com/blog/software-architecture-patterns/
