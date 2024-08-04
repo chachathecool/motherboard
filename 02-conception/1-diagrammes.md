@@ -6,7 +6,10 @@
     - objectif de simplicité tant dans l'implementation que dans la maintenance de l'app
 + Choix d'une architecture en microservice
     - Plus simple et rapide à implémenter et déployer
+    - Plus simple à débuguer
     - Possibilité de monter en puissance / d'évoluer (scalable)
     - Les test peuvenebt se faire de manière plus aisé
     - Plus aisé de travailler en parralèle sur les services disctincts
+
++ Une table privé par service, seulement accessible par ce service
     

@@ -43,3 +43,7 @@
   - https://www.redhat.com/fr/topics/cloud-native-apps/what-is-an-application-architecture
   - https://www.geeksforgeeks.org/types-of-software-architecture-patterns/
   - https://www.simform.com/blog/software-architecture-patterns/
+
+# 20240803
++ Définition du nombre de services
++ Démarrage du diagramme d'architecture

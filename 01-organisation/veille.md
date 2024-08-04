@@ -22,16 +22,16 @@
 |                             |https://minifi.ca/DTWCP      |                                            |                                    |
 |                             |https://minifi.ca/Mj0B6      |                                            |                                    |
 |                             |https://minifi.ca/vVxVp      |                                            |                                    |
+|                             |                             |                                            |                                    |
+|                             |                             |                                            |                                    |
+|                             |                             |                                            |                                    |
+|API                          |https://minifi.ca/PAxTo      |                                            |                                    |
+|                             |                             |                                            |                                    |
+|Microservice architecture    |https://minifi.ca/Df5nn      |                                            |                                    |
 |                             |https://minifi.ca/8ABJK      |                                            |                                    |
-|                             |                             |                                            |                                    |
-|                             |                             |                                            |                                    |
-|                             |                             |                                            |                                    |
-|                             |                             |                                            |                                    |
-|                             |                             |                                            |                                    |
-|                             |                             |                                            |                                    |
-|                             |                             |                                            |                                    |
-|                             |                             |                                            |                                    |
-|                             |                             |                                            |                                    |
+|                             |https://minifi.ca/Re3x2      |                                            |                                    |
+|                             |https://minifi.ca/7eAfJ      |                                            |                                    |
+|                             |https://minifi.ca/W7-eF      |                                            |                                    |
 |                             |                             |                                            |                                    |
 |                             |                             |                                            |                                    |
 |                             |                             |                                            |                                    |
