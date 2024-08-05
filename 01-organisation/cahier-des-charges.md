@@ -55,26 +55,28 @@ Référent technique --> équipe du 24ème
 #### **MVP**
 
 - Se connecter/se déconnecter
-- Créer un profil 
+- Créer un compte 
 - Choisir une heure de notification quotidienne/hebdo 
 - Arrêter les notifications
 - Faire sa duo liste quotidienne (to list pro + perso : 1 élément pour chaque)
-- Reporter les tâches non faites dans une liste à partir de laquelle on peut choisir sur les autres jours
-- Avoir accès à une méditation quotidienne différente de 6 minutes (audio)
-- Avoir accès à une activité sportive intense différente sans accessoire de 6 minutes (vidéo)
-- Enregistrer mes favoris sans avoir de compte youtube 
+- Avoir accès à une méditation quotidienne différente de moins de 10 minutes (audio)
+- Avoir accès à une activité sportive intense différente sans accessoire de moins de 10 minutes (vidéo)
+- Avoir les statistiques d'activités (nombre de minutes et nombre d'activités)
 - Télécharger ses données personnelles (RGPD)
 
 #### **Evolutions possible**
 - Gamification --> encouragement quand action faite + plus longues semaines d'actions
 - Échanger avec d'autres mères / forum
+- Reporter les tâches non faites dans une liste à partir de laquelle on peut choisir sur les autres jours
+- Avoir une proposition de tâches à faire
 - Se connecter à d'autres mères
 - Choisir le temps disponible quotidiennement
+- Enregistrer mes vidéos et audio favoris
 - Avoir une citation motivante par jour 
 - Un minuteur pomodoro pour avancer sur ses projets
 - Un espace de rédaction des objectifs annuels à sa date d'anniversaire (duo goal : pro/perso)
 - Avoir accès à des recettes de cuisine rapides
-- voir les activités sportives / méditation les plus faites
+- Voir les activités sportives / méditation les plus faites
 - Un article positif par jour
 - L'astuce minimaliste du jour
 - Axe sobriété (alcohol, cigarette, sucre, réseaux sociaux)
@@ -83,6 +85,7 @@ Référent technique --> équipe du 24ème
 - Avoir accès à une FAQ
 - Les utilisatrices peuvent proposer des sources (licences libres ?) de fitness/méditation
 - Gérer l'admin familial
+
 
 
 ### **LISTE DES TECHNOLOGIES**
@@ -147,44 +150,38 @@ Motherboard est prévue pour être fonctionnelle sur toutes les dernières versi
 
 ### **USER STORIES**
 
-*En tant qu'utilisatrice non connectée*
+*En tant qu'utilisatrice non enregistrée*
 
-| Sur la page  |   J'ai besoin de                 |    Afin de/d'            | Domaine         |
-|:------------:|:--------------------------------:|:------------------------:|:---------------:|
-|Accueil       |Pouvoir me connecter              |Accéder à mon profil      |Authentification |
-|Accueil       |Contacter l'équipe du site        |Demander des informations |Communication    |
-|Accueil       |Récupérer mon mot de passe oublié |Accéder à mon profil      |Authentification |
-|              |                                  |                          |                 |
-|              |                                  |                          |                 |
-|              |                                  |                          |                 |
-|              |                                  |                          |                 |
-|              |                                  |                          |                 |
-|              |                                  |                          |                 |
-|              |                                  |                          |                 |
+| Sur la page  |   J'ai besoin de                 |    Afin de/d'                       | Domaine         |
+|:------------:|:--------------------------------:|:-----------------------------------:|:---------------:|
+|Accueil       |Contacter l'équipe du site        |Demander des informations            |Communication    |
+|Accueil       |Créer un compte                   |Accéder à toutes les fonctionnalités |Gestion          |
+|              |                                  |                                     |                 |
+|              |                                  |                                     |                 |
 
 
-*En tant qu'utilisatrice connectée*
+*En tant qu'utilisatrice enregistrée*
 
 | Sur la page              |   J'ai besoin de                                |    Afin de/d'                                | Domaine         |
-|:------------:            |:-----------------------------------------------:|:--------------------------------------------:|:---------------:|
+|:------------------------:|:-----------------------------------------------:|:--------------------------------------------:|:---------------:|
+|Accueil                   |Pouvoir me connecter                             |Accéder à mon profil                          |Authentification |
+|Accueil                   |Réinitialiser mon mot de passe oublié            |Accéder à mon profil                          |Authentification |
 |Global/contact            |Contacter l'équipe du site                       |Demander des informations                     |Communication    |
-|Paramètres/compte         |Ajouter mes informations                         |Avoir du contenu personnalisé                 |Gestion          |
+|Paramètres/compte         |Modifier mes informations personnelles           |Avoir du contenu personnalisé                 |Gestion          |
 |Paramètres/compte         |Me déconnecter du site                           |Préserver mes apps privée sur mon téléphone   |Authentification |
 |Paramètres/compte         |Télécharger mes données personnels               |Accéder à mes droits RGPD                     |Gestion          |
-|Paramètres/circuit        |Choisir temps dispo par défaut                   |Avoir des activités adaptés à mes dispos      |Personnalisation | TBC
-|Paramètres/circuit        |Choisir les types d'activités sportives          |Etre motivée par des acivités qui me plaisent |Personnalisation | TBC
-|Paramètres/notifications  |Définir l'heure de notification quotidienne      |Avoir des rappels adaptés à mon planning      |Personnalisation |
+|Paramètres/circuit        |Choisir les types d'activités sportives          |Etre motivée par des acivités qui me plaisent |Personnalisation |
+|Paramètres/notifications  |Définir l'horaire de notification quotidienne    |Avoir des rappels adaptés à mon planning      |Personnalisation |
 |Paramètres/notifications  |Arrêter les notifications                        |Faire des pauses numérique                    |Personnalisation |
 |Paramètres/compte         |Supprimer mon compte                             |Arrêter définitvement mon utilisation         |Gestion          |
 |Mon Reboot/duolist        |Remplir mes 2 tâches pro/perso du jour           |M'organiser et libérer de l'espace mental     |Utilisation      |
 |Mon Reboot/duolist        |Valider mes tâches et être encouragée            |Me sentir capable, efficace et satisfaite     |Utilisation      |
+|Mon Reboot/duolist        |Reporter les tâches non faites au lendemain      |Libérer de l'espace et ne pas culpabiliser    |Utilisation      |
+|Mon Reboot/duolist        |Supprimer une tâche                              |Me sentir capable, efficace et satisfaite     |Utilisation      |
 |Mon Reboot/mindbody       |Lancer une vidéo d'entrainement sportif          |Entretenir ma santé physique                  |Utilisation      |
 |Mon Reboot/mindbody       |Lancer un audio de méditation guidée             |Entretenir ma santé mentale                   |Utilisation      |
-|RAM                       |Avoir le nombre d'activités faites               |M'encourager à continuer                      |Utilisation      |
-|RAM                       |Avoir le nombre de minutes faites par activités  |M'encourager à continuer                      |Utilisation      |
-|Mon Reboot/duolist        |Reporter les tâches non faites sur une liste     |Libérer de l'espace mental et m'organiser     |Utilisation      |
-|Mon Reboot/duolist        |Avoir une proposition de tâches à faire          |Alléger la charge mentale                     |Utilisation      |
-|Mon Reboot/favoris        |Enregistrer mes vidéos et audio favoris          |Refaire des activités lorsque j'ai dû temps   |Utilisation      |
+|RAM                       |Avoir le nombre d'activités faites               |M'encourager à continuer                      |Statistiques     |
+|RAM                       |Avoir le nombre de minutes faites par activités  |M'encourager à continuer                      |Statistiques     |
 
 
 ### **ARBORESCENCE**

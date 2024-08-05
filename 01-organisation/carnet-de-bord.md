@@ -7,9 +7,11 @@
   + Définition du nombre de sprint
   + Listing global des tâches à faire (à retravailler)
 
+
 # 20240724
 + Démarrage de la présentation du logiciel
 + A lire la description de motherboard : https://en.wikipedia.org/wiki/Motherboard
+
 
 # 20240727
 + Choix des technologies : je suis partie sur du PHP/Symfony/MongoDB/Twig. Ces technologies sont adaptées à mon projet, il y a beaucoup de documentation et c'est ce qu'on utilise chez 24ème. Ca me permettra de me challenger et de parfaire mes compétences en même temps. Technos flexibles
@@ -17,6 +19,7 @@
 + Définition des fonctionnalités et du Minimum Viable Product. Étant toute seule sur ce projet il ne faut pas que je sois dépassées par la complexité des fonctionnalité à construire. Il faut que je m'en sente capable et que j'ai assez de temps
 + Démarrage de l'utilisation de NextCloud Deck avec les premières tâches à faire
 + Décision de faire le cahier des charges en markdown pour la simplicité et légèreté = maîtres mots derrière la philosophie de l'application Motherboard
+
 
 # 20240728
 + Reflexion et définition des user stories
@@ -27,15 +30,21 @@
 + Matinée plutôt fluide, je suis dans les temps
 + Explication du choix de la stack technique
 
+
 # 20240729
 + Faire l'arborescence du site
 + Modification des pages des fonctionnalités
 + Choix de mettre des modals pour les sous pages
 
+
 # 20240731
 + Finalisation arborescence
 + Démarrage sprint 2
 + Recherche et début lecture sur diagramme d'architecture
+
+
+
+**SPRINT 2**
 
 # 20240802
 + Choix d'un type d'architecture pour l'application -> MICROSERVICE
@@ -44,6 +53,36 @@
   - https://www.geeksforgeeks.org/types-of-software-architecture-patterns/
   - https://www.simform.com/blog/software-architecture-patterns/
 
+### Pourquoi faire un diagramme d'architecture ?
++ Avoit une représentation visuelle des connections des différents éléments de l'application afin de faciliter la compréhension des interactions
++ Cela permet de décrire et schématiser le système et d'apporter de la cohérence à la structure de l'application
++ Question : quelle type d'architefcture adopter ?
+    - Se baser sur des modèles de conception logicielle
+    - objectif de simplicité tant dans l'implementation que dans la maintenance de l'app
++ Choix d'une architecture en microservice
+    - Plus simple et rapide à implémenter et déployer
+    - Plus simple à débuguer
+    - Possibilité de monter en puissance / d'évoluer (scalable)
+    - Les test peuvenebt se faire de manière plus aisé
+    - Plus aisé de travailler en parralèle sur les services disctincts
+
++ Une table privé par service, seulement accessible par ce service
+
 # 20240803
 + Définition du nombre de services
 + Démarrage du diagramme d'architecture
+
+
+# 20240804
++ Lecture survolée de la pratique de construction d'une architecture microsservice: https://microservices.io/post/architecture/2023/02/09/assemblage-architecture-definition-process.html
++ Décision de faire les diagrammes de classe et de cas d'utilisation en premier
++ Découverte du *YAGNI principle*, à appliquer pour la définition de propriété privée par défaut ? https://fr.wikipedia.org/wiki/YAGNI
+  - http://fabien.potencier.org/pragmatism-over-theory-protected-vs-private.html
+
+
+# 20240805
++ Démarrage diagramme de cas d'utilisation .Je réalise qu'il y a pas mal de fonctionnalités à mettre en place. Il va falloir que je priorise celles qui sont les plus importantes pour que l'application fonctionne et ai du sens. Par ailleurs il va bien falloir que je définisse mes services pour pas que ce soit trop confus.
++ Est-ce que je supprime les tâches qui n'ont pas été faites ?
++ Si aucun type d'activité sportive n'a été choisi, proposition d'exercices aléatoire
++ Réduction de fonctionnalités dans le MVP (Minimum Viable Product) pour avoir le temps de tout faire
++ Finalisation du diagramme d'utilisation yeaah \o/

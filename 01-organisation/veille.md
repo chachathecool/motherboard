@@ -32,9 +32,9 @@
 |                             |https://minifi.ca/Re3x2      |                                            |                                    |
 |                             |https://minifi.ca/7eAfJ      |                                            |                                    |
 |                             |https://minifi.ca/W7-eF      |                                            |                                    |
+|                             |https://minifi.ca/xXDPz      |                                            |                                    |
 |                             |                             |                                            |                                    |
-|                             |                             |                                            |                                    |
-|                             |                             |                                            |                                    |
+|Use Case diagram             |https://minifi.ca/y-j7p      |                                            |                                    |
 |                             |                             |                                            |                                    |
 |                             |                             |                                            |                                    |
 |                             |                             |                                            |                                    |
