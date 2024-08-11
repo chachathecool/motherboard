@@ -93,7 +93,7 @@ Référent technique --> équipe du 24ème
 - PHP
 - Symfony pour le framework
 - Templating avec Twig 3
-- NoSQL avec une base de données orientée document
+- NoSQL avec une base de données orientée document en format JSON
 - MongoDB pour la gestion de la base de données
 - Peertube API (open source) : https://framacolibri.org/t/is-it-possible-to-get-random-videos-via-api/17987
 

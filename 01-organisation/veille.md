@@ -36,8 +36,8 @@
 |                             |                             |                                            |                                    |
 |Use Case diagram             |https://minifi.ca/y-j7p      |                                            |                                    |
 |                             |                             |                                            |                                    |
-|                             |                             |                                            |                                    |
-|                             |                             |                                            |                                    |
+|Modélisation NoSQL           |https://minifi.ca/2RF5-      |                                            |                                    |
+|                             |https://minifi.ca/nCrsB      |                                            |                                    |
 |                             |                             |                                            |                                    |
 |                             |                             |                                            |                                    |
 |                             |                             |                                            |                                    |

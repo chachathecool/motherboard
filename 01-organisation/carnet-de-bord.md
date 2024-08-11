@@ -86,3 +86,65 @@
 + Si aucun type d'activité sportive n'a été choisi, proposition d'exercices aléatoire
 + Réduction de fonctionnalités dans le MVP (Minimum Viable Product) pour avoir le temps de tout faire
 + Finalisation du diagramme d'utilisation yeaah \o/
++ Faire des recherches pour comprendre la différence entre le MCD de MERISE et Diagramme de Classe de l'UML
++ Il va falloir que j'adopte la modélisation du diagramme de classe à une base de données NoSQL. En effet, ce type de diagramme est plus communément utilisé avec des bases de données relationnelles
+  + Necessité d'être stricte et rigoureuse dans la structure des documents et collections pour maintenir de la cohérence. Les BDD NoSQL offrent beaucoup de flexibilité, il faut donc dans le cadre de se projet éviter de trop se laisser emporter par cette souplesse
+  + Idem pour le typage des données 
+
+
+# 20240808
++ [lookup] dans mongodb pour faire des "jointures" ?
++ Faire 3 collections :
+    - user
+    - duolist
+    - mind_body
+
++ Dans les documents de la collection [user], on référence les éléments des collections [duolist] et [mind_body] dans des tableaux.
+  -  Puis on fait des requêtes via lookup
+
++ Quand un utilisateur supprime son compte, on supprime ses entrées de la collection [duolist]
+
++ Dans la collection [mind_body] on reference les utilisateurs qui on eu et joué le document (vidéo ou audio) dans 2 tableaux distincts d'objets :
+
+    played_by = [ tableau de users ]
+    user_id = [ tableau de dates]
+    -- date
+    -- length_played
+
+    received_by = [ tableau de users ]
+    user_id = [ tableau de dates]
+    -- date
+    played = booléen
+
+  - A voir si logique d'incorporer l'objet played by dans received by
+
++ Modeliser les différentes méthodes en bas de la représentation arborescente
+
++ Toutes les propriétés en privées
+
++ Comment gérer les login et mot de passe dans la BDD documentaire Mongo ?
+  - https://stackoverflow.com/questions/4881208/how-to-secure-mongodb-with-username-and-password
+
+  - https://www.prisma.io/dataguide/mongodb/configuring-mongodb-user-accounts-and-authentication
+
+  - https://security.stackexchange.com/questions/20103/store-user-passwords-in-nosql-database#20112
+
+  - https://stackoverflow.com/questions/6951563/storing-passwords-with-node-js-and-mongodb
+
+  - https://stackoverflow.com/questions/43092071/how-should-i-store-salts-and-passwords-in-mongodb#43094720
+
+  - https://www.mongodb.com/docs/v4.4/core/authentication/
+
+  - https://stackoverflow.com/questions/1054022/best-way-to-store-password-in-database#1054033
+
++ Sécurité BDD
+
+  - https://medium.com/@aka.0x4C3DD/securing-nosql-databases-a-comprehensive-guide-c2e2a5d787a4
+
+  - https://dev.to/zeeshanali0704/how-to-store-password-in-database-bbh
+
+
+# 20240809
++ Quelle gestion de BDD pour architecture microservice ?
++ Est-ce que BDD nosql adaptée ?
+  - https://microservices.io/patterns/data/shared-database.html
