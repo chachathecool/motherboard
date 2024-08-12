@@ -127,11 +127,11 @@
 
   - https://www.prisma.io/dataguide/mongodb/configuring-mongodb-user-accounts-and-authentication
 
-  - https://security.stackexchange.com/questions/20103/store-user-passwords-in-nosql-database#20112
+--->  - https://security.stackexchange.com/questions/20103/store-user-passwords-in-nosql-database#20112
 
   - https://stackoverflow.com/questions/6951563/storing-passwords-with-node-js-and-mongodb
 
-  - https://stackoverflow.com/questions/43092071/how-should-i-store-salts-and-passwords-in-mongodb#43094720
+--->  - https://stackoverflow.com/questions/43092071/how-should-i-store-salts-and-passwords-in-mongodb#43094720
 
   - https://www.mongodb.com/docs/v4.4/core/authentication/
 
@@ -148,3 +148,12 @@
 + Quelle gestion de BDD pour architecture microservice ?
 + Est-ce que BDD nosql adaptée ?
   - https://microservices.io/patterns/data/shared-database.html
+
+
+# 20240811
++ Questionnement sur comment hasher les mots de passe sur Mongo https://stackoverflow.com/questions/14588032/mongoose-password-hashing
++ Quel est le type de bcrypt ?
++ Explorer fonction hash sur PHP https://stackoverflow.com/questions/16952694/mongodb-php-and-authentication
+  - https://stackoverflow.com/questions/27263375/mongodb-and-php-simple-login
+  Le mieux est probablement d'utiliser la fonction `password_hash` native de PHP https://www.php.net/manual/en/function.password-hash.php
++ Itération réflexion sur la mise de toutes les propriétés en privé : https://www.exakat.io/en/make-everything-private-php-classes/
