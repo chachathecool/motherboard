@@ -157,3 +157,18 @@
   - https://stackoverflow.com/questions/27263375/mongodb-and-php-simple-login
   Le mieux est probablement d'utiliser la fonction `password_hash` native de PHP https://www.php.net/manual/en/function.password-hash.php
 + Itération réflexion sur la mise de toutes les propriétés en privé : https://www.exakat.io/en/make-everything-private-php-classes/
+
+
+# 20240815
++ Utilisation de `lookup` : https://www.youtube.com/watch?v=3mLq-bGd-Lc  `db.collection.aggregate({$lookup: {from: "collectionToMerge", localfield: "fieldNameToReference", foreignField: "fieldStoringTheObjectId", ad: "theAliasUsedToDisplayResult"}})`
++ Info pouvant être utile :
+    > If you want address to be an object instead of an array of objects you use unwind after the lookup in the pipeline array:
+    > `$unwind: { path: "$addr", preserveNullAndEmptyArrays: false }`
+
++ Ajouter un type `body` et un type `mind` selon que le document soit une meditation ou sport
+
++ Dans le tableau `played_stats`, les clés correspondent à l'index
+
++ Finalisation de la modélisation de la base de données NoSQL. Ce n'était pas simple de créer la structure dans ma tête, et je suis fière contente de ce que j'ai fait en 2h30. Il y aura peut-être des ajustements à faire au moment du développement
+
++ Je suis en retard de 10 jours sur mon planning, mais je pense que vais rattraper ce retard
