@@ -176,8 +176,31 @@
 
 
 # 2024815
-+ Démarrage de l'identification des opérations systeme :
++ Démarrage de l'identification des opérations systemes  :
   - https://microservices.io/post/architecture/refactoring/2023/07/27/assemblage-overview-part-1-defining-system-operations.html
-  - https://dev.to/alaaattya_91/the-ultimate-guide-for-microservices-design-2f0h
+  - **https://dev.to/alaaattya_91/the-ultimate-guide-for-microservices-design-2f0h**
 + Explication résumé en français : https://www.lesmicroservices.com/2020/10/conception-architecture-microservices.html
-    > Une opération système est une abstraction d'une demande/requête que l'application doit traiter. Il s'agit d'une commande qui met à jour les données, ou d'une requête qui interroge les données. Le comportement de chacune est défini avec les termes d'un modèle de domaine abstrait, qui est également dérivé des exigences. Les opérations systèmes deviennent alors des scénarios d’architecture qui illustrent la manière dont les services collaborent.
+    > *Une opération système est une abstraction d'une demande/requête que l'application doit traiter. Il s'agit d'une commande qui met à jour les données, ou d'une requête qui interroge les données. Le comportement de chacune est défini avec les termes d'un modèle de domaine abstrait, qui est également dérivé des exigences. Les opérations systèmes deviennent alors des scénarios d’architecture qui illustrent la manière dont les services collaborent.*
+
+
+**+ Je me pose des questions sur l'intérêt de faire une architecture en microservice, notamment après le'intro de l'article sur dev.to + cet article de Martin Fowler : https://martinfowler.com/bliki/MonolithFirst.html**
+  - Je crée un projet from scratch et utiliser des microservices risque de le rendre compliqué
+  > *often the best way to find out if a software idea is useful is to build a simplistic version of it and see how well it works out.*
+  - Je ne'ai pas forcément perdu du temps, j'ai beaucoup appris, mais je pense que je vais passer sur une architecture monolith, surtout que je suis en retard sur mon planning. Peut-être que plus tard je dirigerai Motherboard vers des microservices
+  - Alternative : Modular Monolith Architecture ? Monolithe Modulaire
+    - https://www.techtarget.com/searchapparchitecture/tip/Understanding-the-modular-monolith-and-its-ideal-use-cases
+    - https://www.kamilgrzybek.com/blog/posts/modular-monolith-primer
+    - = le meilleur des  mondes ? Unification, pardait pour un projet à ses début (donc pa sbesoin de la complexité des microservices), besoin de développer rapidement sans sacrifier la possibilité de scale ou la refactorisation future
+  + A explorer :
+    - https://macrini.medium.com/the-modern-php-approach-to-creating-modular-applications-aaf71459a6bd
+    - **https://www.kode-krunch.com/2021/11/php-symfony-modular-architecture-demo-part-1.html**
+        et **https://www.kode-krunch.com/2021/12/php-symfony-modular-architecture-demo-part-2.html**
+    - https://mateusguimaraes.com/posts/modularizing-the-monolith-a-real-world-experience
+    - **https://medium.com/design-microservices-architecture-with-patterns/microservices-killer-modular-monolithic-architecture-ac83814f6862**
+        et **https://medium.com/design-microservices-architecture-with-patterns/design-modular-monolithic-architecture-for-e-commerce-applications-with-step-by-step-c6ddf466f3e**
+    - **https://programmingpulse.vercel.app/blog/mastering-the-modular-monolithic-architecture**
+    - **https://dev.to/xoubaman/modular-monolith-3fg1**
+
+   - setPassword dans PHP: https://stackoverflow.com/questions/9183368/symfony2-user-setpassword-updates-password-as-plain-text-datafixtures-fos
+
+   + Au final: démarrage de l'identification des opérations systèmes et démarrage des diagrammes de classe
