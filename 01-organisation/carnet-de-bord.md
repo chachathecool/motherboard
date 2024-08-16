@@ -172,3 +172,12 @@
 + Finalisation de la modélisation de la base de données NoSQL. Ce n'était pas simple de créer la structure dans ma tête, et je suis fière contente de ce que j'ai fait en 2h30. Il y aura peut-être des ajustements à faire au moment du développement
 
 + Je suis en retard de 10 jours sur mon planning, mais je pense que vais rattraper ce retard
+
+
+
+# 2024815
++ Démarrage de l'identification des opérations systeme :
+  - https://microservices.io/post/architecture/refactoring/2023/07/27/assemblage-overview-part-1-defining-system-operations.html
+  - https://dev.to/alaaattya_91/the-ultimate-guide-for-microservices-design-2f0h
++ Explication résumé en français : https://www.lesmicroservices.com/2020/10/conception-architecture-microservices.html
+    > Une opération système est une abstraction d'une demande/requête que l'application doit traiter. Il s'agit d'une commande qui met à jour les données, ou d'une requête qui interroge les données. Le comportement de chacune est défini avec les termes d'un modèle de domaine abstrait, qui est également dérivé des exigences. Les opérations systèmes deviennent alors des scénarios d’architecture qui illustrent la manière dont les services collaborent.

@@ -13,7 +13,7 @@
 ## Nombre de sprints
   - 11 semaines de sprint
   - **Sprint 1** : du 23/07 au 29/07
-  - **Sprint 2** : du 30/07 au 05/07
+  - **Sprint 2** : du 30/07 au 05/07 /!\ RETARD toujours dessus la semaine du 13/08
   - **Sprint 3** : du 06/08 au 12/08
   - **Sprint 4** : du 13/08 au 19/08
   - **Sprint 5** : du 20/08 au 26/08
@@ -64,10 +64,11 @@
 **SPRINT 2**
   - **Documents de Conception** :
     -[] Diagramme expliquant architecture projet avec explication des choix effectués (draw.io)
-    -[] Diagramme UML : diagramme entité-relation
+    ~~-[] Diagramme UML : diagramme entité-relation~~
+    -[x] Modélisation de la base de données
 
   - **Documents relatifs à la persistence des donnés**
-    -[] MCD et eventuellement MLD
+    ~~-[] MCD et eventuellement MLD~~
     -[] Documenter les differents outils/service/infrastructures utilisés pour stockage de donnés ou fichiers (peut inclure registres images Docker)
 
   - **MAJ cahier des charges**
