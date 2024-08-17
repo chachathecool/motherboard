@@ -175,7 +175,7 @@
 
 
 
-# 2024815
+# 20240816
 + Démarrage de l'identification des opérations systemes  :
   - https://microservices.io/post/architecture/refactoring/2023/07/27/assemblage-overview-part-1-defining-system-operations.html
   - **https://dev.to/alaaattya_91/the-ultimate-guide-for-microservices-design-2f0h**
@@ -204,3 +204,16 @@
    - setPassword dans PHP: https://stackoverflow.com/questions/9183368/symfony2-user-setpassword-updates-password-as-plain-text-datafixtures-fos
 
    + Au final: démarrage de l'identification des opérations systèmes et démarrage des diagrammes de classe
+
+
+
+   # 20240817
+   + Explorer comment faire un formulaire de contact (fonctionnalité 1) :
+    - https://www.phptutorial.net/php-tutorial/php-contact-form/
+  + Sur la non pertinence d'ajouter un champ `_id` dans le diagramme de classe :
+    - https://softwareengineering.stackexchange.com/questions/302610/id-in-class-diagram
+    - https://stackoverflow.com/questions/15080090/should-i-put-id-attributes-in-uml-class-diagrams
+    - SetId dans entité Doctrine **https://stackoverflow.com/questions/45902982/is-possible-use-setid-for-id-in-doctrine-entity**
+  + Authentifier utilisatrice : https://phpdelusions.net/pdo_examples/password_hash
+    - Dans Doctrone : https://symfony.com/doc/current/security.html
+    + Ajouter le scénario où utilisatrice

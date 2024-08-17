@@ -150,14 +150,12 @@ Motherboard est prévue pour être fonctionnelle sur toutes les dernières versi
 
 ### **USER STORIES**
 
-*En tant qu'utilisatrice non enregistrée*
+*En tant qu'utilisatrice non enregistrée ou non connectée*
 
 | Sur la page  |   J'ai besoin de                 |    Afin de/d'                       | Domaine         |
 |:------------:|:--------------------------------:|:-----------------------------------:|:---------------:|
-|Accueil       |Contacter l'équipe du site        |Demander des informations            |Communication    |
+|Global/contact|Contacter l'équipe du site        |Demander des informations            |Communication    |
 |Accueil       |Créer un compte                   |Accéder à toutes les fonctionnalités |Gestion          |
-|              |                                  |                                     |                 |
-|              |                                  |                                     |                 |
 
 
 *En tant qu'utilisatrice enregistrée*
@@ -166,6 +164,13 @@ Motherboard est prévue pour être fonctionnelle sur toutes les dernières versi
 |:------------------------:|:-----------------------------------------------:|:--------------------------------------------:|:---------------:|
 |Accueil                   |Pouvoir me connecter                             |Accéder à mon profil                          |Authentification |
 |Accueil                   |Réinitialiser mon mot de passe oublié            |Accéder à mon profil                          |Authentification |
+|Global/contact            |Contacter l'équipe du site                       |Demander des informations                     |Communication    |
+
+
+*En tant qu'utilisatrice connectée*
+
+| Sur la page              |   J'ai besoin de                                |    Afin de/d'                                | Domaine         |
+|:------------------------:|:-----------------------------------------------:|:--------------------------------------------:|:---------------:|
 |Global/contact            |Contacter l'équipe du site                       |Demander des informations                     |Communication    |
 |Paramètres/compte         |Modifier mes informations personnelles           |Avoir du contenu personnalisé                 |Gestion          |
 |Paramètres/compte         |Me déconnecter du site                           |Préserver mes apps privée sur mon téléphone   |Authentification |
@@ -182,6 +187,15 @@ Motherboard est prévue pour être fonctionnelle sur toutes les dernières versi
 |Mon Reboot/mindbody       |Lancer un audio de méditation guidée             |Entretenir ma santé mentale                   |Utilisation      |
 |RAM                       |Avoir le nombre d'activités faites               |M'encourager à continuer                      |Statistiques     |
 |RAM                       |Avoir le nombre de minutes faites par activités  |M'encourager à continuer                      |Statistiques     |
+
+
+
+
+
+
+
+
+
 
 
 ### **ARBORESCENCE**
