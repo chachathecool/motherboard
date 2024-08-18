@@ -84,13 +84,14 @@
   - **MAJ cahier des charges**
 
 **SPRINT 4**
-    -[] Lister fonctionnalités à coder dans kanban
+    -[] Lister fonctionnalités à coder dans kanban (Poker PLanning)
     -[] Coder fonctionnalités
     -[] Liste des routes prévues
 
 
 **SPRINT 5**
     -[] Coder fonctionnalités
+    - [] sur formulaire d'inscription, avoir un bouton "j'accepte que mes données soient utilisées dans le cadre de l'application, etc" -> à ajouter en boolean dans la BDD ?
 
 **SPRINT 6**
     -[] Coder fonctionnalités

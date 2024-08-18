@@ -30,7 +30,7 @@
 + Matinée plutôt fluide, je suis dans les temps
 + Explication du choix de la stack technique
 
-
+https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/
 # 20240729
 + Faire l'arborescence du site
 + Modification des pages des fonctionnalités
@@ -217,3 +217,28 @@
   + Authentifier utilisatrice : https://phpdelusions.net/pdo_examples/password_hash
     - Dans Doctrone : https://symfony.com/doc/current/security.html
     + Ajouter le scénario où utilisatrice
+
+  # 20240818 
+  + Continuer à faire les gherkin (sans la section "When") et les diagrammes de classe
+    - Cela me permet de bien clarifier comment va être le site, c'est super. Ca me permet de faire des recherches quand je me pose des question ssur la méthodologie pour programmer une action. Je pense qu'il aurait été difficile de commencer à coder sans cette partie conception, quitte à ce que la conception prenne du temps.
+    - PLus d'infos sur le langage Gherkin :
+      - https://blog.myagilepartner.fr/index.php/2020/05/25/gherkin-given-when-then/
+      - https://www.wefiit.com/blog/rediger-en-gherkin
+  - **Reset paswword dans Symfony: https://www.youtube.com/watch?v=9RA3yAp4xw8**
+  + Explication complète des diagrammes de classe UML : https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/
+  + Qu'est-ce-qui est considéré comme une donnée personnelle :
+    - https://www.cnil.fr/fr/identifier-les-donnees-personnelles
+    - Règlement RGPD (voir *Article 15 Droit d'accès*): https://www.cnil.fr/fr/reglement-europeen-protection-donnees
+    - Cela comprend les données d'usage d'une application
+
+  + Récupérer les objets à partir d'un tableau : https://stackoverflow.com/questions/52083086/how-can-i-get-data-from-object-with-foreach-loop-in-symfony
+    - findBy() : https://stackoverflow.com/questions/38815175/symfony-findoneby-findby
+    - findBy() vs find() : https://openclassrooms.com/forum/sujet/symfony-difference-entre-find-et-findby-31092#message-7697587
+  + Supprimer un utilisateur (attention Symfony 2 : https://openclassrooms.com/forum/sujet/symfony2-delete-user-logout-error#message-87698834)
+
+  + Questionnement sur l'UX du bouton de choix de notification : https://www.nngroup.com/articles/toggle-switch-guidelines/
+    - Choix d'utiliser un toggle switch
+    - Quand toggle bouton "on", on degrise la partie "Horaire de notification"
+    - Peut-être à explorer : https://stackoverflow.com/questions/33209971/symfony-boolean-field-into-form
+
+  + Je suis contente j'avance bien ! Je vais rattraper mon retard

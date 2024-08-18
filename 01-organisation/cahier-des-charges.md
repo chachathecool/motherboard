@@ -158,7 +158,7 @@ Motherboard est prévue pour être fonctionnelle sur toutes les dernières versi
 |Accueil       |Créer un compte                   |Accéder à toutes les fonctionnalités |Gestion          |
 
 
-*En tant qu'utilisatrice enregistrée*
+*En tant qu'utilisatrice enregistrée non connectée*
 
 | Sur la page              |   J'ai besoin de                                |    Afin de/d'                                | Domaine         |
 |:------------------------:|:-----------------------------------------------:|:--------------------------------------------:|:---------------:|
@@ -175,10 +175,10 @@ Motherboard est prévue pour être fonctionnelle sur toutes les dernières versi
 |Paramètres/compte         |Modifier mes informations personnelles           |Avoir du contenu personnalisé                 |Gestion          |
 |Paramètres/compte         |Me déconnecter du site                           |Préserver mes apps privée sur mon téléphone   |Authentification |
 |Paramètres/compte         |Télécharger mes données personnels               |Accéder à mes droits RGPD                     |Gestion          |
+|Paramètres/compte         |Supprimer mon compte                             |Arrêter définitvement mon utilisation         |Gestion          |
 |Paramètres/circuit        |Choisir les types d'activités sportives          |Etre motivée par des acivités qui me plaisent |Personnalisation |
 |Paramètres/notifications  |Définir l'horaire de notification quotidienne    |Avoir des rappels adaptés à mon planning      |Personnalisation |
 |Paramètres/notifications  |Arrêter les notifications                        |Faire des pauses numérique                    |Personnalisation |
-|Paramètres/compte         |Supprimer mon compte                             |Arrêter définitvement mon utilisation         |Gestion          |
 |Mon Reboot/duolist        |Remplir mes 2 tâches pro/perso du jour           |M'organiser et libérer de l'espace mental     |Utilisation      |
 |Mon Reboot/duolist        |Valider mes tâches et être encouragée            |Me sentir capable, efficace et satisfaite     |Utilisation      |
 |Mon Reboot/duolist        |Reporter les tâches non faites au lendemain      |Libérer de l'espace et ne pas culpabiliser    |Utilisation      |
