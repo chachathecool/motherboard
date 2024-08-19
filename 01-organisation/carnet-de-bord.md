@@ -242,3 +242,13 @@ https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-di
     - Peut-être à explorer : https://stackoverflow.com/questions/33209971/symfony-boolean-field-into-form
 
   + Je suis contente j'avance bien ! Je vais rattraper mon retard
+
+
+  # 20240819
+  + Mettre à jour les Gherkin car j'oublie des étapes de flow entre page
+  + Pour set les dates ? https://stackoverflow.com/questions/50467271/symfony-4-set-datetime
+  + Précisions sur la définition d'un setter pour les object https://stackoverflow.com/questions/11740145/php-setters-getters-and-constructor
+    Et : https://stackoverflow.com/questions/33389938/class-properties-as-array-instead-of-variables
+  + Retirer la propriété `task_deleted` de la classe `MindBody` car si la tâche est supprimée, cette dernière est effacée en base donc pas de persistance
+  + GIT: intéressant pour retrouver un fichier supprimé
+  + On met un setter sur tous les éléments des objets `duo_task_one` et `duo_task_two` car on souhaite que ces éléments puissent être modifiés
