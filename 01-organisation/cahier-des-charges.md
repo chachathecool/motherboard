@@ -73,6 +73,7 @@ Référent technique --> équipe du 24ème
 - Choisir le temps disponible quotidiennement
 - Enregistrer mes vidéos et audio favoris
 - Avoir une citation motivante par jour 
+- Choisir la langue de l'application
 - Un minuteur pomodoro pour avancer sur ses projets
 - Un espace de rédaction des objectifs annuels à sa date d'anniversaire (duo goal : pro/perso)
 - Avoir accès à des recettes de cuisine rapides
@@ -176,25 +177,17 @@ Motherboard est prévue pour être fonctionnelle sur toutes les dernières versi
 |Paramètres/compte         |Me déconnecter du site                           |Préserver mes apps privée sur mon téléphone   |Authentification |
 |Paramètres/compte         |Télécharger mes données personnels               |Accéder à mes droits RGPD                     |Gestion          |
 |Paramètres/compte         |Supprimer mon compte                             |Arrêter définitvement mon utilisation         |Gestion          |
-|Paramètres/circuit        |Choisir les types d'activités sportives          |Etre motivée par des acivités qui me plaisent |Personnalisation |
+|Paramètres/circuit        |Choisir les types d'activités fitness            |Etre motivée par des acivités qui me plaisent |Personnalisation |
 |Paramètres/notifications  |Définir l'horaire de notification quotidienne    |Avoir des rappels adaptés à mon planning      |Personnalisation |
 |Paramètres/notifications  |Arrêter les notifications                        |Faire des pauses numérique                    |Personnalisation |
 |Mon Reboot/duolist        |Remplir mes 2 tâches pro/perso du jour           |M'organiser et libérer de l'espace mental     |Utilisation      |
 |Mon Reboot/duolist        |Valider mes tâches et être encouragée            |Me sentir capable, efficace et satisfaite     |Utilisation      |
 |Mon Reboot/duolist        |Reporter les tâches non faites au lendemain      |Libérer de l'espace et ne pas culpabiliser    |Utilisation      |
-|Mon Reboot/duolist        |Supprimer une tâche                              |Me sentir capable, efficace et satisfaite     |Utilisation      |
-|Mon Reboot/mindbody       |Lancer une vidéo d'entrainement sportif          |Entretenir ma santé physique                  |Utilisation      |
+|Mon Reboot/duolist        |Modifier une tâche                               |Avoir la liberté de me remettre en question   |Utilisation      |
+|Mon Reboot/mindbody       |Lancer une vidéo d'entrainement fitness          |Entretenir ma santé physique                  |Utilisation      |
 |Mon Reboot/mindbody       |Lancer un audio de méditation guidée             |Entretenir ma santé mentale                   |Utilisation      |
 |RAM                       |Avoir le nombre d'activités faites               |M'encourager à continuer                      |Statistiques     |
 |RAM                       |Avoir le nombre de minutes faites par activités  |M'encourager à continuer                      |Statistiques     |
-
-
-
-
-
-
-
-
 
 
 

@@ -252,3 +252,25 @@ https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-di
   + Retirer la propriété `task_deleted` de la classe `MindBody` car si la tâche est supprimée, cette dernière est effacée en base donc pas de persistance
   + GIT: intéressant pour retrouver un fichier supprimé
   + On met un setter sur tous les éléments des objets `duo_task_one` et `duo_task_two` car on souhaite que ces éléments puissent être modifiés
+
+
+  # 20240820
+  + Comment créer des relations en NoSQL ? : https://stackoverflow.com/questions/4126811/how-do-you-track-record-relations-in-nosql
+  + Utilisation de de références (par ID) pour récupérer les datas de l'utilisatrice dans les collection `MindBody` et `DuoList` afin de réduire la redondance
+    - https://stackoverflow.com/questions/2336700/mongodb-many-to-many-association
+    - **https://ravendb.net/articles/entity-relationships-in-nosql**
+    + La relation entre la classe `User` et la classe `DuoList` est une association de type composition
+      - https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/
+
+  + Resources pour ls icones : https://iconoir.com/
+
+  + Puis-je utiliser les vidéos de fitness sur Youtube sur mon site ? https://revive.social/can-i-use-someone-elses-youtube-video-on-my-website/
+    + Ok si j'utilise le embbed natif de youtube :
+      > According to the European Union Court of Justice and its ruling from October 21st, 2014, embedding a video that contains copyright material is not copyright infringement if an iframe (embed option) is used.
+  + Et questionnement copyright sur PeerTube : https://github.com/Chocobozzz/PeerTube/issues/713
+  + Blocage au niveau des sources car plus de vidéos de tout type sur Youtube
+
+  + La relation entre la classe `User` et la classe `MindBody` est une association simple
+    - UML Ordered Constraint : https://www.softwareideas.net/uml-unique-ordered
+
+  + Youpi j'ai terminé les opérations systèmes (Gherkin et diagramme de classe) !! \o/ Je pourrai finaliser le diagramme d'architecture demain
