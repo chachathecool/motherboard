@@ -1432,38 +1432,6 @@
         <mxCell id="kp23O6Nq1zKgRiNcyB6N-123" value="– find( mindbody_ObjectId ):Object " style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kp23O6Nq1zKgRiNcyB6N-119">
           <mxGeometry y="91" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kp23O6Nq1zKgRiNcyB6N-178" value="&lt;b&gt;DuoList&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="9480" width="410" height="271" as="geometry">
-            <mxRectangle x="830" width="220" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kp23O6Nq1zKgRiNcyB6N-179" value="– _id:int" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kp23O6Nq1zKgRiNcyB6N-178">
-          <mxGeometry y="30" width="410" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kp23O6Nq1zKgRiNcyB6N-180" value="– user_ObjectId:Object" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kp23O6Nq1zKgRiNcyB6N-178">
-          <mxGeometry y="60" width="410" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kp23O6Nq1zKgRiNcyB6N-181" value="– task_name:String" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kp23O6Nq1zKgRiNcyB6N-178">
-          <mxGeometry y="90" width="410" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kp23O6Nq1zKgRiNcyB6N-182" value="– task_done:boolean" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kp23O6Nq1zKgRiNcyB6N-178">
-          <mxGeometry y="120" width="410" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kp23O6Nq1zKgRiNcyB6N-183" value="– task_rescheduled:boolean" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kp23O6Nq1zKgRiNcyB6N-178">
-          <mxGeometry y="150" width="410" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kp23O6Nq1zKgRiNcyB6N-184" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=0.5;" vertex="1" parent="kp23O6Nq1zKgRiNcyB6N-178">
-          <mxGeometry y="180" width="410" height="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kp23O6Nq1zKgRiNcyB6N-185" value="– getUser( ):Object" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kp23O6Nq1zKgRiNcyB6N-178">
-          <mxGeometry y="181" width="410" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kp23O6Nq1zKgRiNcyB6N-186" value="– getDuolistTaskOne( task_name, task_done, task_rescheduled ):Object" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kp23O6Nq1zKgRiNcyB6N-178">
-          <mxGeometry y="211" width="410" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kp23O6Nq1zKgRiNcyB6N-187" value="– getDuolistTaskTwo( task_name, task_done, task_rescheduled ):Object" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kp23O6Nq1zKgRiNcyB6N-178">
-          <mxGeometry y="241" width="410" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="kp23O6Nq1zKgRiNcyB6N-205" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="10" y="560" width="1180" height="390" as="geometry" />
         </mxCell>
