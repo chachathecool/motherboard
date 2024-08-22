@@ -274,3 +274,79 @@ https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-di
     - UML Ordered Constraint : https://www.softwareideas.net/uml-unique-ordered
 
   + Youpi j'ai terminé les opérations systèmes (Gherkin et diagramme de classe) !! \o/ Je pourrai finaliser le diagramme d'architecture demain
+
+
+# 20240821
++ Métriques de disponibilité et de fiabilité : https://www.atlassian.com/fr/incident-management/kpis/reliability-vs-availability
++ Liste d'exigences non fonctionnelles :
+  - https://www.redhat.com/architect/nonfunctional-requirements-architecture
+  - https://www.browserstack.com/guide/non-functional-requirements-examples
+  - Utilisabilité : https://blog-ux.com/quest-ce-que-lutilisabilite/
+  - **https://en.wikipedia.org/wiki/Non-functional_requirement**
+
++ Design principles
+    - DRY, KISS, SOLID: https://softwareengineering.stackexchange.com/questions/73065/what-are-dry-kiss-solid-etc-classified-as
+    - Liste de design patterns : https://en.wikipedia.org/wiki/Software_design_pattern
+    - SOLID et SoC : https://medium.com/design-microservices-architecture-with-patterns/software-architecture-design-principles-soc-solid-98611997c30e
+    -  Load balancer : https://medium.com/design-microservices-architecture-with-patterns/fundamentals-of-scalability-vertical-and-horizontal-scaling-2933422859de
+    -  Monolith first : https://medium.com/design-microservices-architecture-with-patterns/monolith-first-approach-before-moving-to-microservices-da969be8bf7c
+    -  DRY, KISS, YAGNI : https://medium.com/design-microservices-architecture-with-patterns/software-architecture-design-principles-kiss-yagni-dry-341ce969212c
+    - YAGNI : https://martinfowler.com/bliki/Yagni.html
+
+  + Démarrage du diagramme d'architecture en faisant la boîte à outils. Cela m'a permis de découvrir et comprendre plusieurs principes d'architecture logiciel (voir ci-dessus), dont certains que je vais utiliser pour Motherboard.
+
+  + Bénéfices d'une architecture monolithique modulaire :
+    - Simple à développer, à débugguer et déployer -> KISS
+    - Code réutilisable
+    - Encapsulation de la logique métier
+    - Indépendnce de la mise à jour du frontend
+
+  + Load balancing Nginx + Apache :
+    - https://medium.com/@thoufeek18/mastering-load-balancing-for-apache-servers-with-nginx-a-step-by-step-guide-476dbd821297
+    - https://www.it-connect.fr/reverse-proxy-nginx-load-balancing-et-fail-over/
+    - https://nginx.org/en/docs/http/load_balancing.html
+    - https://www.inmotionhosting.com/support/server/apache/apache-load-balancer/
+    - https://httpd.apache.org/docs/2.4/mod/mod_proxy_balancer.html
+    - Nginx vs Apache : https://stackoverflow.com/questions/24338908/apache-or-nginx-i-like-to-understand-the-basic-working-flow-of-nginx-its-adv
+      **Je vais juste utiliser Nginx pour les serveurs et load balancer**
+    - Déployer site ave Nginx : https://dev.to/starcc/how-to-deploy-a-simple-website-with-nginx-a-comically-easy-guide-202g
+    - Comprendre le fonctionnement d'un load balancer :
+        - https://www.linode.com/docs/guides/load-balancing-fundamentals/
+        - https://www.baeldung.com/cs/load-balancer
+
+
+
+  + **Exemple pour architecture monolithe modulaire :**
+    - **Backend: https://github.com/kgrzybek/modular-monolith-with-ddd**
+    - **Frontend: https://github.com/kgrzybek/modular-monolith-with-ddd-fe-react**
+
+  + Pour motherboard : architecture headless -> séparation du frontend et du backend
+
+  + Single Page Application : https://blog.hubspot.fr/website/single-page-application
+    - Meilleur expérience utilisatrice
+    - Implémentation simple
+    - Simple à débuguer
+    - Meilleure performance
+    - Plus d'interactivité
+      - Sur Symfony, utilisation de la librairie Ux Turbo
+          --> sans avoir besoin de javascript
+          --> une seule application à maintenir (au niveau backend)
+          --> Permet d'éviter la duplication de logique (DRY)
+          --> Fait gagner du temps quand développeuse solo
+        - Tuto: https://www.youtube.com/watch?v=3zcB35wZuXE
+          - https://www.youtube.com/watch?v=FehreuAVp10
+          - https://symfonycasts.com/screencast/turbo
+          - https://www.julienvolle.fr/post/symfony-ux-turbo.html
+
++ **Définir les modules : https://www.youtube.com/watch?v=Xo3rsiZYsJQ**
+  - Créer les modules : https://www.youtube.com/watch?v=xYtM5sJ3Nrc
+
++ Comprendre les API : https://blog.hubspot.fr/website/application-programming-interface
+  - Utilisation d'appels de méthodes pour intéragir entre les modules (appels des fonctions des autres modules) : https://www.youtube.com/watch?v=5dilYMii9T4
+      - Rapide, simple à mettre en place et fiable
+
++ Créer des serveurs multiples en local : https://simplewebserver.org/fr-FR/
+
++ Utilisation de l'API Invidious pour fetch des vidéos fitness et méditation sur Youtube : https://docs.invidious.io/api/
+
++ Finalisatio ndu diagramme d'architecture Youpi !! \o/

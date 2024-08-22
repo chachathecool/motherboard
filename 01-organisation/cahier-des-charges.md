@@ -54,15 +54,22 @@ Référent technique --> équipe du 24ème
 ### **FONCTIONNALITÉS** 
 #### **MVP**
 
-- Se connecter/se déconnecter
 - Créer un compte 
+- Se connecter/se déconnecter
+- Récupérer son mot de passe/nom d'utilisatrice oublié
 - Choisir une heure de notification quotidienne/hebdo 
-- Arrêter les notifications
-- Faire sa duo liste quotidienne (to list pro + perso : 1 élément pour chaque)
+- Autoriser les notifications par email
+- Écrire les tâches sa duo liste quotidienne (to list pro + perso : 1 élément pour chaque)
+- Reporter les tâches de la duo liste au lendemain
+- Valider les tâches effectuées
 - Avoir accès à une méditation quotidienne différente de moins de 10 minutes (audio)
-- Avoir accès à une activité sportive intense différente sans accessoire de moins de 10 minutes (vidéo)
+- Avoir accès à une activité fitness intense différente sans accessoire de moins de 10 minutes (vidéo)
+- Choisir les types d'activités fitness
 - Avoir les statistiques d'activités (nombre de minutes et nombre d'activités)
 - Télécharger ses données personnelles (RGPD)
+- Supprimer son compte
+- Modifier ses informations personnelles
+- Contacter l'équipe du site
 
 #### **Evolutions possible**
 - Gamification --> encouragement quand action faite + plus longues semaines d'actions
