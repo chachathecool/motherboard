@@ -12,9 +12,9 @@
 
 ## Nombre de sprints
   - 11 semaines de sprint
-  - **Sprint 1** : du 23/07 au 29/07
-  - **Sprint 2** : du 30/07 au 05/07 /!\ RETARD toujours dessus la semaine du 13/08
-  - **Sprint 3** : du 06/08 au 12/08
+  - **Sprint 1** : du 23/07 au 29/07 --> **du 02/08 au 31/07**
+  - **Sprint 2** : du 30/07 au 05/08 /!\ **du 02/08 au 21/08**
+  - **Sprint 3** : du 06/08 au 12/08 /!\ **du 22/08 au ???**
   - **Sprint 4** : du 13/08 au 19/08
   - **Sprint 5** : du 20/08 au 26/08
   - **Sprint 6** : du 27/08 au 02/09
