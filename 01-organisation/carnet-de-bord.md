@@ -396,3 +396,5 @@ https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-di
 + Confirmation création de compte : https://stackoverflow.com/questions/12646520/should-user-auto-login-after-registration
 + Best practices sign up form :https://medium.com/@fiona.chiaraviglio/best-practices-for-login-sign-up-from-a-ux-perspective-e5d14b6ffce0
 + hover penpot ? https://community.penpot.app/t/how-do-i-create-a-simple-hover-effect-on-a-button/2490/2
++ J'avance bien sur les wireframes, j'aime beaucoup le esign du site
++ J'ai trouvé des photos très bien pour la landing page (LF Studio sur Pexel)
