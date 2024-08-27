@@ -373,7 +373,26 @@ https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-di
     - https://medium.com/@fiona.chiaraviglio/best-practices-for-login-sign-up-from-a-ux-perspective-e5d14b6ffce0
       > *Tie the button to your product. “Start creating”, “Start selling”, “Become a driver”. This informs the user about a tangible result they can get out of the transaction.*
 
-+ En faisant le wireframe, j'a pris goût à l'aspect minimaliste des composants, qi correspondent beaucoup à mon evie de faire une paplication minamiliste.
++ En faisant le wireframe, j'a pris goût à l'aspect minimaliste des composants, qi correspondent beaucoup à mon envie de faire une application minimaliste.
   - Peut-être garder la même typo (DM Sans)
-  - Peut de couleurs (potentiellement seulement des touches de violet)
-  - Prendre le bleu des composant du wireframe pour le site
+  - Peu de couleurs (potentiellement seulement des touches de violet)
+  - Prendre le bleu des composants du wireframe pour le site
+
+
+## 20240825
++ Si besoin de texte "lorem ipsum" http://saganipsum.com/
++ Plus j'avance plus j'aime cette idée de design ultra minimaliste pour n epas charger davantage les mamans dans leur reboot quotidien
+  + Ajouter une touche de couleur lorsque que une tâche ou activité mindbody est terminée
+  + Sur boutons de type "confirmation/validation" ajouter hover pour passer du gris au bleu
+
+
+## 20240826
++ Design de formulaire : https://www.interaction-design.org/literature/article/ui-form-design
+  - Inline validation pour les mot de passe ?
+
+## 20240827
++ Palette de couleurs accessible : https://venngage.com/tools/accessible-color-palette-generator
+  - Prise e ncontact des contrastes et de l'accessibilité
++ Confirmation création de compte : https://stackoverflow.com/questions/12646520/should-user-auto-login-after-registration
++ Best practices sign up form :https://medium.com/@fiona.chiaraviglio/best-practices-for-login-sign-up-from-a-ux-perspective-e5d14b6ffce0
++ hover penpot ? https://community.penpot.app/t/how-do-i-create-a-simple-hover-effect-on-a-button/2490/2
