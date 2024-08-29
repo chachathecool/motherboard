@@ -398,3 +398,15 @@ https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-di
 + hover penpot ? https://community.penpot.app/t/how-do-i-create-a-simple-hover-effect-on-a-button/2490/2
 + J'avance bien sur les wireframes, j'aime beaucoup le esign du site
 + J'ai trouvé des photos très bien pour la landing page (LF Studio sur Pexel)
+
+
+## 20240828
++ Ajouter des flashs messages pour les success : https://symfonycasts.com/screencast/symfony-forms/flash-messages
++ Ajustement des contrastes de couleurs pour être au plus proches des recommendations en termes d'accessibilité : https://colors.artyclick.com/contrast-color-finder/?color1=#ffb600&color2=#cd311e
++ Ajout d'un collapsible : https://www.w3schools.com/howto/howto_js_collapsible.asp
+  - https://stackoverflow.com/questions/31578891/bootstrap-collapse-over-an-element
+
++ Potentielle améliorations : remonter le bouton "notifications" lorsu'il est cliqué (event javascript ?)
++ Envoi de notification via twig et mailer symfony : https://symfony.com/doc/current/notifier.html
++ Choix de l'heure avec html <input type = "time"> : https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time
++ Pfiouuu j'ai finalisé les wireframe desktop

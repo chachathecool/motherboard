@@ -61,9 +61,9 @@ Référent technique --> équipe du 24ème
 - Récupérer son mot de passe/nom d'utilisatrice oublié
 - Choisir une heure de notification quotidienne/hebdo 
 - Autoriser les notifications par email
-- Écrire les tâches sa duo liste quotidienne (to list pro + perso : 1 élément pour chaque)
-- Reporter les tâches de la duo liste au lendemain
-- Valider les tâches effectuées
+- Écrire les intentions sur sa duo liste quotidienne list pro + perso : 1 élément pour chaque)
+- Reporter les intentions de la duo liste au lendemain
+- Valider les intentions effectuées
 - Avoir accès à une méditation quotidienne différente de moins de 10 minutes (audio)
 - Avoir accès à une activité fitness intense différente sans accessoire de moins de 10 minutes (vidéo)
 - Choisir les types d'activités fitness
@@ -76,8 +76,8 @@ Référent technique --> équipe du 24ème
 #### **Evolutions possible**
 - Gamification --> encouragement quand action faite + plus longues semaines d'actions
 - Échanger avec d'autres mères / forum
-- Reporter les tâches non faites dans une liste à partir de laquelle on peut choisir sur les autres jours
-- Avoir une proposition de tâches à faire
+- Reporter les intentions non faites dans une liste à partir de laquelle on peut choisir sur les autres jours
+- Avoir une proposition d'intentions à faire
 - Se connecter à d'autres mères
 - Choisir le temps disponible quotidiennement
 - Enregistrer mes vidéos et audio favoris
@@ -189,10 +189,10 @@ Motherboard est prévue pour être fonctionnelle sur toutes les dernières versi
 |Paramètres/circuit        |Choisir les types d'activités fitness            |Etre motivée par des acivités qui me plaisent |Personnalisation |
 |Paramètres/notifications  |Définir l'horaire de notification quotidienne    |Avoir des rappels adaptés à mon planning      |Personnalisation |
 |Paramètres/notifications  |Arrêter les notifications                        |Faire des pauses numérique                    |Personnalisation |
-|Mon Reboot/duolist        |Remplir mes 2 tâches pro/perso du jour           |M'organiser et libérer de l'espace mental     |Utilisation      |
-|Mon Reboot/duolist        |Valider mes tâches et être encouragée            |Me sentir capable, efficace et satisfaite     |Utilisation      |
-|Mon Reboot/duolist        |Reporter les tâches non faites au lendemain      |Libérer de l'espace et ne pas culpabiliser    |Utilisation      |
-|Mon Reboot/duolist        |Modifier une tâche                               |Avoir la liberté de me remettre en question   |Utilisation      |
+|Mon Reboot/duolist        |Remplir mes 2 intentions pro/perso du jour       |M'organiser et libérer de l'espace mental     |Utilisation      |
+|Mon Reboot/duolist        |Valider mes intentions et être encouragée        |Me sentir capable, efficace et satisfaite     |Utilisation      |
+|Mon Reboot/duolist        |Reporter les intentions non faites au lendemain  |Libérer de l'espace et ne pas culpabiliser    |Utilisation      |
+|Mon Reboot/duolist        |Modifier une intention                           |Avoir la liberté de me remettre en question   |Utilisation      |
 |Mon Reboot/mindbody       |Lancer une vidéo d'entrainement fitness          |Entretenir ma santé physique                  |Utilisation      |
 |Mon Reboot/mindbody       |Lancer un audio de méditation guidée             |Entretenir ma santé mentale                   |Utilisation      |
 |RAM                       |Avoir le nombre d'activités faites               |M'encourager à continuer                      |Statistiques     |
