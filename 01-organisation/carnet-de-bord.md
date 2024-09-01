@@ -410,3 +410,8 @@ https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-di
 + Envoi de notification via twig et mailer symfony : https://symfony.com/doc/current/notifier.html
 + Choix de l'heure avec html <input type = "time"> : https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time
 + Pfiouuu j'ai finalisé les wireframe desktop
+
+
+
+## 20240901
++ Finalisation de la charte graphique
