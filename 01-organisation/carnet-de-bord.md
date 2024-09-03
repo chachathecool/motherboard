@@ -63,7 +63,7 @@ https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-di
     - Plus simple et rapide à implémenter et déployer
     - Plus simple à débuguer
     - Possibilité de monter en puissance / d'évoluer (scalable)
-    - Les test peuvenebt se faire de manière plus aisé
+    - Les test peuvent se faire de manière plus aisé
     - Plus aisé de travailler en parralèle sur les services disctincts
 
 + Une table privé par service, seulement accessible par ce service
@@ -415,3 +415,13 @@ https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-di
 
 ## 20240901
 + Finalisation de la charte graphique
+
+
+# **SPRINT 4**
+
+## 20240902 
++ Recherche pour choix d'outil et de mise en oeuvre de la documentation du projet
+  - https://dataedo.com/blog/how-to-document-php-and-mysql-project
+  - Tutoriel pour Swagger : https://www.youtube.com/playlist?list=PLnBvgoOXZNCN0E_oNPrY1wfPhYIXpKbMS
+  - **Tutoriel en français pour Swagger : https://www.youtube.com/watch?v=no0y4ISItiw**
+  Je choisi Swagger car il s'agit à la fois de l'outil dont Dylan nous a parlé chez O'Clock, et il a l'air complet et intuitive à utiliser 
