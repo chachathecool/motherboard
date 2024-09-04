@@ -424,4 +424,13 @@ https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-di
   - https://dataedo.com/blog/how-to-document-php-and-mysql-project
   - Tutoriel pour Swagger : https://www.youtube.com/playlist?list=PLnBvgoOXZNCN0E_oNPrY1wfPhYIXpKbMS
   - **Tutoriel en français pour Swagger : https://www.youtube.com/watch?v=no0y4ISItiw**
-  Je choisi Swagger car il s'agit à la fois de l'outil dont Dylan nous a parlé chez O'Clock, et il a l'air complet et intuitive à utiliser 
+  Je choisi Swagger car il s'agit à la fois de l'outil dont Dylan nous a parlé chez O'Clock, et il a l'air complet et intuitive à utiliser
+
+
+
+## 20240904
++ Recommendations OWASP pour implémenter donctionnalité mot de passe oublié: https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html
+  - RESTful password request : https://stackoverflow.com/questions/3077229/restful-password-reset
+  - Logging out :
+    - https://stackoverflow.com/questions/3521290/logging-out-get-or-post/14587231#14587231
+    - https://stackoverflow.com/questions/40245154/http-restful-webservice-logout-which-is-correct-or-better-practice-post-or-de
