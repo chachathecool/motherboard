@@ -434,3 +434,13 @@ https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-di
   - Logging out :
     - https://stackoverflow.com/questions/3521290/logging-out-get-or-post/14587231#14587231
     - https://stackoverflow.com/questions/40245154/http-restful-webservice-logout-which-is-correct-or-better-practice-post-or-de
+
+
+## 20240906
++ En faisant ma liste de route, j'apprends à mieux comprendre les méthodes HTTPS, et je me rends compte que je suis en effet en train de faire une application CRUD (Create, Read, Update, Delete)
+  + Difference entre `PUT` et `PATCH`:
+    - https://stackoverflow.com/questions/31089221/what-is-the-difference-between-put-post-and-patch
+    - https://www.geeksforgeeks.org/videos/difference-between-put-patch-request/
++ Il serait intéressant de compléter le tableau de la liste de routes avec les requêtes et réponses JSON
++ Pour le planning, étant toute seule, décision de partir sur un développement linéaire das l'ordre des wireframes
+  - 6 sprints pour faire 17 fonctionnalités décomposées en 51 wireframes. Soit environ 9,5 wireframes par sprint
