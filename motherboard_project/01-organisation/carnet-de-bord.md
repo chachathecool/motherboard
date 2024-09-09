@@ -444,3 +444,32 @@ https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-di
 + Il serait intéressant de compléter le tableau de la liste de routes avec les requêtes et réponses JSON
 + Pour le planning, étant toute seule, décision de partir sur un développement linéaire das l'ordre des wireframes
   - 6 sprints pour faire 17 fonctionnalités décomposées en 51 wireframes. Soit environ 9,5 wireframes par sprint
+
+
+
+# **SPRINT 5**
+
+## 20240906
+- Démarrage du sprint de 5 qui consiste essentiellement à la configuration initale du projet
+  + Nécessité d'installer le serveur Apache (de Apache HTTP Server 2.4.52 à 2.4.62 : https://httpd.apache.org/docs/2.4/install.html#upgrading 
+    - Ne s'agissant pas d'une mise à jour d'une version mineure vers la suivante il faut faire une nouvelle installation
+    - Supppression de l'ancienne version : https://serverfault.com/a/344282 et https://medium.com/@anuththara.sachini/safely-removing-default-apache2-installation-in-linux-a-step-by-step-guide-41370f07be43
+      - Erreur lors du lancement 
+      - Comme j'avais supprimé tous les fichiers et dossiers Apache, je n'avais plus le fichier binaire Apache qui est necessaire
+      + Alors, je me retrouve avec l'ancinne version en passant par apt, il faut donc que j'installe apache à partir des sources pour obtenir la derniere version
+      - En fait c'était une mauvaise idée... mieux vaut revenir à la version 2.4.52 via apt. Apache ne démarre pas correctement et il me manque des services...
+  + Mise à jour de PHP (de 8.1.2 à  8.3.11))
+  + Installation du CLI Symfony
+  + Lol j'ai carrément perdu du temps avec Apache.... car j'avais décidé de faire mon projet avec Nginx ! 
+
+
+## 20240908
++ Installation de nginx : https://nginx.org/en/linux_packages.html#Ubuntu
++ Prise en main de Nginx 
+  - Bien penser à stopper le service Apache en background : https://stackoverflow.com/questions/14972792/nginx-nginx-emerg-bind-to-80-failed-98-address-already-in-use `sudo /etc/init.d/apache2 stop`
+  - Liste des commandes : https://www.cyberciti.biz/faq/nginx-restart-ubuntu-linux-command/
+  - Quel fichier de configuration utiliser dans Nginx : https://stackoverflow.com/questions/22143565/which-nginx-config-file-is-enabled-etc-nginx-conf-d-default-conf-or-etc-nginx
+  - J'ai passé beaucoup de temps (plus d'une heure) à bidouiller le fichier de configuration nginx.conf. J'ai eu quelques bugs et incompréhensions (notamment des erreurs 404 alors que j'avais l'impression d'avoir tout bien mis en place....) Je pense que le fichier de config default et qui était `include` dans nginx.conf foutait un peu le bazar.
+  > **After you deploy to production, make sure that you cannot access the index.php script (i.e. http://example.com/index.php).**
+
++ Installation et configuration de symfony
