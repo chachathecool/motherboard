@@ -190,7 +190,7 @@ https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-di
   - Alternative : Modular Monolith Architecture ? Monolithe Modulaire
     - https://www.techtarget.com/searchapparchitecture/tip/Understanding-the-modular-monolith-and-its-ideal-use-cases
     - https://www.kamilgrzybek.com/blog/posts/modular-monolith-primer
-    - = le meilleur des  mondes ? Unification, pardait pour un projet à ses début (donc pa sbesoin de la complexité des microservices), besoin de développer rapidement sans sacrifier la possibilité de scale ou la refactorisation future
+    - = le meilleur des  mondes ? Unification, parfait pour un projet à ses début (donc pa sbesoin de la complexité des microservices), besoin de développer rapidement sans sacrifier la possibilité de scale ou la refactorisation future
   + A explorer :
     - https://macrini.medium.com/the-modern-php-approach-to-creating-modular-applications-aaf71459a6bd
     - **https://www.kode-krunch.com/2021/11/php-symfony-modular-architecture-demo-part-1.html**
@@ -473,3 +473,17 @@ https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-di
   > **After you deploy to production, make sure that you cannot access the index.php script (i.e. http://example.com/index.php).**
 
 + Installation et configuration de symfony
+
+
+## 20240909
++ Exemple de modular monolith sur Symfony : 
+  - https://github.com/Mararok/SymfonyModularMonolith/tree/master
+  - https://stackoverflow.com/questions/49902106/how-to-implement-a-modular-architecture-with-symfony4
+  - https://www.kamilgrzybek.com/blog/posts/modular-monolith-primer
+
++ Installation de Twig
++ **Exemple de monolith modulaire avec SYmfony https://github.com/eXsio/php-symfony-arch**
+
+
+## 20240911 
++ Exemple monolith modulaire en symfony : https://www.youtube.com/watch?v=0knSjelOatE
