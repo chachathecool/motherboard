@@ -487,3 +487,8 @@ https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-di
 
 ## 20240911 
 + Exemple monolith modulaire en symfony : https://www.youtube.com/watch?v=0knSjelOatE
++ Création de controller en utilisant la commande `make`
++ Besoin de refaire
+  - les diagrammes d'architecture
+  - les modélisations  pour séparer la logique de l'authentification du user
+  - les opérations systèmes
