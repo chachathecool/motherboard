@@ -492,3 +492,8 @@ https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-di
   - les diagrammes d'architecture
   - les modélisations  pour séparer la logique de l'authentification du user
   - les opérations systèmes
+
++ Réévaluation de l'architecture. J'ai retiré les `ContactModule`, `AuthenticationModule` `ParametersModule` et `StatisticsModule` sinon ça compliquait vraiment mon code.
+
++ Installation de l'extention MongoDB PHP pour utiliser la librairie Doctrine MongoDB ODM : https://www.php.net/manual/en/mongodb.installation.pecl.php
+  - Besoin d'installer php-pear et php8.3-dev
