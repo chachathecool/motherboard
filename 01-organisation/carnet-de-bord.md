@@ -497,3 +497,17 @@ https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-di
 
 + Installation de l'extention MongoDB PHP pour utiliser la librairie Doctrine MongoDB ODM : https://www.php.net/manual/en/mongodb.installation.pecl.php
   - Besoin d'installer php-pear et php8.3-dev
+
+
+## 20240915
++ Configuration du projet en mode monolithe modulaire
+  - D'une architecture monolithe à un monolithe modulaire : https://lokalise.com/blog/decoupling-a-monolithic-php-application-a-practical-example/
+  - Modification et ajout des namespaces pour chaque module : https://www.cspray.io/blog/customize-symfony-namespaces/
+  - Création des controllers, entités et repositories
+  - Création du fichier d'initialisation `bootstrap.php`
+  - Création de mes propres services  pour chaque module
+  - Création d'un dossier [services] avec 1 fichier.yaml pour chaque module
+  - Import de ces services dans le `services.yaml`
+
+- Installation de la librairie Doctrine MongoDB ODM et de ses dépendances
+- Installation de phpcodesniffer
